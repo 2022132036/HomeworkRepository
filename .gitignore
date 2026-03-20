@@ -74,4 +74,8 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
+### Cursor ###
+.cursor/
+
+
 # End of https://www.toptal.com/developers/gitignore/api/venv,macos,windows
