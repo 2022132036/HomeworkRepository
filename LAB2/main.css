@@ -1,0 +1,73 @@
+body {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top : 60px;
+    text-align: center;
+    color: #333;
+}
+
+h1 {
+    display: inline-block;
+    border: 2px solid red;
+    padding: 10px 40px;
+    font-size: 28px;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+}
+
+#anchor {
+    margin-bottom: 30px;
+}
+
+#bar{
+    display:inline-block;
+
+}
+
+#form_box {
+    display: inline-block;
+    border: 1px solid black;
+    padding: 30px;
+    width: 500px;
+    text-align: left;
+}
+
+#input_box div, #login_form div {
+    margin-bottom: 15px;
+}
+
+label, span {
+    display: inline-block;
+    width: 100px;
+}
+
+#name,#birth,#grade,#id,#password,#email,#question,#answer{
+    width: 250px;
+    height: 25px;
+    padding:0;
+}
+
+.button_example {
+    width: 100px;
+    height: 40px;
+    background-color: #90ee90;
+    border: none;
+    padding: 5px;
+    margin-top: 20px;
+}
+
+#button_box button{
+    margin-right:10px;
+    width:140px;
+    height:40px;
+    border:none;
+    border-radius:10px;
+}
+
+#signup{
+    background-color:green;
+}
+#login{
+    background-color:red;
+}
